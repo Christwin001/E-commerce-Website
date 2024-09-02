@@ -1,0 +1,262 @@
+body{
+    background-color: black;
+}
+
+.color-palette{
+    color: pink;
+}
+.about-section{
+    padding: 3rem 1rem;
+    background-color: black;
+    border-top: 5px solid pink;
+    text-align: left;
+}
+
+#about-heading{
+    font-family: 'Playfair Display',serif;
+    font-size: 3rem;
+    color: pink;
+    margin-bottom: 2rem;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.about-text{
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: pink;
+    text-align: justify;
+}
+
+.about-image-container{
+    flex: 1;
+}
+
+.about-image{
+    max-width: 100%;
+    height:auto;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.main-about{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.nav-link{
+    margin-top: 18px;
+    display: flex;
+    gap: 50px;
+    margin-right: 100px;
+}
+
+.product-section{
+    padding: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    
+}
+#dpb{
+    background-color: pink;
+    margin-bottom: 2rem;
+}
+
+#eopb{
+    background-color: pink;
+}
+#fpb{
+    background-color: pink;
+}
+
+#hpb{
+    background-color: pink;
+}
+.product-image{
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container img{
+    max-width: 60%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.details-btn{
+    padding: 15px 30px;
+    background-color: black;
+    color: pink;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    ;
+}
+
+.details-btn:hover{
+    background-color: #b8860b;
+}
+
+a{
+    text-decoration: none;
+}
+.footer-main{
+    background-color: black;
+    color: pink;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-menu{
+    background-color: pink;
+    color: black;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-img{
+   width: 150px;
+   border-radius: 8px;
+}
+
+.footer-more h4{
+    margin-bottom: 0.5rem;
+}
+
+body{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main{
+    flex: 1;
+}
+
+.contact-form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-form h2{
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact-form label{
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button{
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    color: pink;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+    background-color: rgb(108, 96, 26);
+}
+
+
+
+.footer-nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.footer nav a:hover{
+    color:rgb(155, 136, 26)
+}
+
+.footer-copyright{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.footer-more{
+    margin-top: 1rem;
+    text-align: center;
+   
+}
+
